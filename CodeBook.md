@@ -1,13 +1,10 @@
 CodeBook
 
-Variables
-df: is the output of the merged x train and x test datasets that is used to extract the mean and standard deviation and descriptive activity names.
-x, y, subject: is the output of the merged datasets used for the fLabel function for binding Labels to the dataset.
+Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the Y and Z axis. 
+
+The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 Transformations
-Each data set is extracted.
-Data sets are merged into 3 seperate datasets: x, y and subject.
-Mean and Standard Deviation is extracted from the x dataset.
-Descriptive names are referecned from the y dataset.
-Labels are created with the combined x, y and subject datasets.
-TidyDataSet txt is created.
+The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
